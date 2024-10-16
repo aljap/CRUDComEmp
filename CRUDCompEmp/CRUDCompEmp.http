@@ -1,0 +1,6 @@
+@CRUDCompEmp_HostAddress = http://localhost:5261
+
+GET {{CRUDCompEmp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
