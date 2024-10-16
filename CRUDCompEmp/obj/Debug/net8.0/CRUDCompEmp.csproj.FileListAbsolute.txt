@@ -31,3 +31,4 @@ d:\Alan\TareasAlterna\CRUDComEmp\CRUDCompEmp\obj\Debug\net8.0\refint\CRUDCompEmp
 d:\Alan\TareasAlterna\CRUDComEmp\CRUDCompEmp\obj\Debug\net8.0\CRUDCompEmp.pdb
 d:\Alan\TareasAlterna\CRUDComEmp\CRUDCompEmp\obj\Debug\net8.0\CRUDCompEmp.genruntimeconfig.cache
 d:\Alan\TareasAlterna\CRUDComEmp\CRUDCompEmp\obj\Debug\net8.0\ref\CRUDCompEmp.dll
+d:\Alan\TareasAlterna\CRUDComEmp\CRUDCompEmp\obj\Debug\net8.0\CRUDCompEmp.sourcelink.json
