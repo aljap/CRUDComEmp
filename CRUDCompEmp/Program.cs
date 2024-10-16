@@ -15,14 +15,24 @@ app.UseHttpsRedirection();
 
 
 
-var companies = new List<Company>();
-var employees = new List<Employee>();
+var companies = new List<Company>{
+    new Company{Id = 1, Name= "Alan company"},
+    new Company{Id = 2, Name= "Jose company"}
+};
+var employees = new List<Employee>{
+    new Employee{Id=1, Name="Alan Alarcon", CompanyId=1},
+    new Employee{Id=2, Name="Joel Peña", CompanyId=1}
+};
+
 
 int companyIdCounter = 1;
 int employeeIdCounter = 1;
 
 
-app.MapGet("/companies", () => companies);
+app.MapGet("/companies", () =>
+{
+    return Results.Ok(companies);
+});
 
 app.MapGet("/companies/{id}", (int id) =>
 {
@@ -103,6 +113,26 @@ app.MapDelete("/companies/{id}/with-employees", (int id) =>
     companies.Remove(company);
 
     return Results.NoContent();
+});
+
+app.MapGet("/employee/{id}/withCompany", (int id) =>
+{
+    var employee = employees.FirstOrDefault(e => e.Id == id);
+    if (employee is null) return Results.NotFound();
+    var company = companies.FirstOrDefault(c => c.Id == employee.CompanyId);
+    if (company is null) return Results.NotFound();
+
+    var employeeCompany = new
+    {
+        employeeId = employee.Id,
+        employeeName = employee.Name,
+        employeeCompany = company.Name
+    };
+
+    return Results.Ok(employeeCompany);
+
+
+
 });
 
 app.Run();
