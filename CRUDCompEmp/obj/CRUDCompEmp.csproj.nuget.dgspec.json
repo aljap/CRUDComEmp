@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Alan\\TareasAlterna\\CRUDComEmp\\CRUDCompEmp\\CRUDCompEmp.csproj": {}
+    "D:\\Alan\\TareasAlterna\\CRUDComEmp\\CRUDCompEmp\\CRUDCompEmp.csproj": {}
   },
   "projects": {
-    "d:\\Alan\\TareasAlterna\\CRUDComEmp\\CRUDCompEmp\\CRUDCompEmp.csproj": {
+    "D:\\Alan\\TareasAlterna\\CRUDComEmp\\CRUDCompEmp\\CRUDCompEmp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Alan\\TareasAlterna\\CRUDComEmp\\CRUDCompEmp\\CRUDCompEmp.csproj",
+        "projectUniqueName": "D:\\Alan\\TareasAlterna\\CRUDComEmp\\CRUDCompEmp\\CRUDCompEmp.csproj",
         "projectName": "CRUDCompEmp",
-        "projectPath": "d:\\Alan\\TareasAlterna\\CRUDComEmp\\CRUDCompEmp\\CRUDCompEmp.csproj",
+        "projectPath": "D:\\Alan\\TareasAlterna\\CRUDComEmp\\CRUDCompEmp\\CRUDCompEmp.csproj",
         "packagesPath": "C:\\Users\\aljap\\.nuget\\packages\\",
-        "outputPath": "d:\\Alan\\TareasAlterna\\CRUDComEmp\\CRUDCompEmp\\obj\\",
+        "outputPath": "D:\\Alan\\TareasAlterna\\CRUDComEmp\\CRUDCompEmp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aljap\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,13 +43,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.10, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[6.9.0, )"
             }
           },
           "imports": [
