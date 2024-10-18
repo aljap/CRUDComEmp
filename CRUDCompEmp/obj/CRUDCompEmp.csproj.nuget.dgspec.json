@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Alan\\TareasAlterna\\CRUDComEmp\\CRUDCompEmp\\CRUDCompEmp.csproj": {}
+    "d:\\Alan\\TareasAlterna\\CRUDComEmp\\CRUDCompEmp\\CRUDCompEmp.csproj": {}
   },
   "projects": {
-    "D:\\Alan\\TareasAlterna\\CRUDComEmp\\CRUDCompEmp\\CRUDCompEmp.csproj": {
+    "d:\\Alan\\TareasAlterna\\CRUDComEmp\\CRUDCompEmp\\CRUDCompEmp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Alan\\TareasAlterna\\CRUDComEmp\\CRUDCompEmp\\CRUDCompEmp.csproj",
+        "projectUniqueName": "d:\\Alan\\TareasAlterna\\CRUDComEmp\\CRUDCompEmp\\CRUDCompEmp.csproj",
         "projectName": "CRUDCompEmp",
-        "projectPath": "D:\\Alan\\TareasAlterna\\CRUDComEmp\\CRUDCompEmp\\CRUDCompEmp.csproj",
+        "projectPath": "d:\\Alan\\TareasAlterna\\CRUDComEmp\\CRUDCompEmp\\CRUDCompEmp.csproj",
         "packagesPath": "C:\\Users\\aljap\\.nuget\\packages\\",
-        "outputPath": "D:\\Alan\\TareasAlterna\\CRUDComEmp\\CRUDCompEmp\\obj\\",
+        "outputPath": "d:\\Alan\\TareasAlterna\\CRUDComEmp\\CRUDCompEmp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aljap\\AppData\\Roaming\\NuGet\\NuGet.Config"

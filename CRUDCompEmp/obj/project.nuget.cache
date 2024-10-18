@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aTvatedHF68=",
+  "dgSpecHash": "iVuV4BNeVFs=",
   "success": true,
-  "projectFilePath": "D:\\Alan\\TareasAlterna\\CRUDComEmp\\CRUDCompEmp\\CRUDCompEmp.csproj",
+  "projectFilePath": "d:\\Alan\\TareasAlterna\\CRUDComEmp\\CRUDCompEmp\\CRUDCompEmp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aljap\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.10\\microsoft.aspnetcore.authentication.jwtbearer.8.0.10.nupkg.sha512",
     "C:\\Users\\aljap\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.10\\microsoft.aspnetcore.openapi.8.0.10.nupkg.sha512",

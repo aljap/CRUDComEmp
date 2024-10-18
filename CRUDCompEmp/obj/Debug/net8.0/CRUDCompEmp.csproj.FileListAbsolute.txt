@@ -32,3 +32,11 @@ d:\Alan\TareasAlterna\CRUDComEmp\CRUDCompEmp\obj\Debug\net8.0\CRUDCompEmp.pdb
 d:\Alan\TareasAlterna\CRUDComEmp\CRUDCompEmp\obj\Debug\net8.0\CRUDCompEmp.genruntimeconfig.cache
 d:\Alan\TareasAlterna\CRUDComEmp\CRUDCompEmp\obj\Debug\net8.0\ref\CRUDCompEmp.dll
 d:\Alan\TareasAlterna\CRUDComEmp\CRUDCompEmp\obj\Debug\net8.0\CRUDCompEmp.sourcelink.json
+d:\Alan\TareasAlterna\CRUDComEmp\CRUDCompEmp\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+d:\Alan\TareasAlterna\CRUDComEmp\CRUDCompEmp\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+d:\Alan\TareasAlterna\CRUDComEmp\CRUDCompEmp\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+d:\Alan\TareasAlterna\CRUDComEmp\CRUDCompEmp\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+d:\Alan\TareasAlterna\CRUDComEmp\CRUDCompEmp\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+d:\Alan\TareasAlterna\CRUDComEmp\CRUDCompEmp\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+d:\Alan\TareasAlterna\CRUDComEmp\CRUDCompEmp\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+d:\Alan\TareasAlterna\CRUDComEmp\CRUDCompEmp\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
