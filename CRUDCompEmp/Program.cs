@@ -1,5 +1,4 @@
 
-
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -11,18 +10,14 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
 app.UseHttpsRedirection();
+app.UseMiddleware<AlanMidlewareAlterna>();
 
 
 
-var companies = new List<Company>{
-    new Company{Id = 1, Name= "Alan company"},
-    new Company{Id = 2, Name= "Jose company"}
-};
-var employees = new List<Employee>{
-    new Employee{Id=1, Name="Alan Alarcon", CompanyId=1},
-    new Employee{Id=2, Name="Joel Peña", CompanyId=1}
-};
+var companies = new List<Company> { };
+var employees = new List<Employee> { };
 
 
 int companyIdCounter = 1;
@@ -130,17 +125,17 @@ app.MapGet("/employee/{id}/withCompany", (int id) =>
     };
 
     return Results.Ok(employeeCompany);
-
-
-
 });
 
 app.Run();
+
 
 public class Company
 {
     public int Id { get; set; }
     public required string Name { get; set; }
+    public required List<Employee> Employees { get; set; }
+    public required List<Item> Items { get; set; }
 }
 
 public class Employee
@@ -148,6 +143,52 @@ public class Employee
     public int Id { get; set; }
     public required string Name { get; set; }
     public int CompanyId { get; set; }
+    public int Salary { get; set; }
+    public required Company Company { get; set; }
+    public required Order Order { get; set; }
+
+}
+public class Item
+{
+    public int Id { get; set; }
+    public required string Name { get; set; }
+    public int Value { get; set; }
+
+    public int CompaniId { get; set; }
+
+    public required Company Company { get; set; }
 }
 
+public class Order
+{
+    public int Id { get; set; }
+    public required string Description { get; set; }
+    public int EmployeeId { get; set; }
+    public required Employee Employee { get; set; }
+    public int TotalValue { get; set; }
+    public Boolean CompaniId { get; set; }
+}
+
+public class OrderDetails
+{
+    public int Id { get; set; }
+
+    public required Item ItemId { get; set; }
+
+    public required Order OrderId { get; set; }
+}
+
+public class Invoice
+{
+    public int Id { get; set; }
+
+    public required int OrderId { get; set; }
+
+    public required Order Order { get; set; }
+
+    public Boolean Status { get; set; }
+    public DateOnly DeliveryDate { get; set; }
+
+
+}
 
